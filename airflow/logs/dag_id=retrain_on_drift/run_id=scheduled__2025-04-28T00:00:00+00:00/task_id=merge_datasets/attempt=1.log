@@ -1,0 +1,28 @@
+[2025-04-29T15:05:38.140+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-29T15:05:38.151+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retrain_on_drift.merge_datasets scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:38.155+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retrain_on_drift.merge_datasets scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:38.156+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-04-29T15:05:38.161+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): merge_datasets> on 2025-04-28 00:00:00+00:00
+[2025-04-29T15:05:38.176+0000] {standard_task_runner.py:72} INFO - Started process 145 to run task
+[2025-04-29T15:05:38.180+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retrain_on_drift', 'merge_datasets', 'scheduled__2025-04-28T00:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/drift_retrain_dag.py', '--cfg-path', '/tmp/tmpqyzvey68']
+[2025-04-29T15:05:38.181+0000] {standard_task_runner.py:105} INFO - Job 211: Subtask merge_datasets
+[2025-04-29T15:05:38.249+0000] {task_command.py:467} INFO - Running <TaskInstance: retrain_on_drift.merge_datasets scheduled__2025-04-28T00:00:00+00:00 [running]> on host c3379456a121
+[2025-04-29T15:05:38.453+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retrain_on_drift' AIRFLOW_CTX_TASK_ID='merge_datasets' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-28T00:00:00+00:00'
+[2025-04-29T15:05:38.462+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-29T15:05:38.464+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-29T15:05:38.464+0000] {logging_mixin.py:190} INFO - Current task name:merge_datasets state:running start_date:2025-04-29 15:05:38.151568+00:00
+[2025-04-29T15:05:38.464+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift and current dag run status:running
+[2025-04-29T15:05:38.465+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-29T15:05:38.466+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-29T15:05:38.468+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/scripts/merge_versions.py v2']
+[2025-04-29T15:05:38.522+0000] {subprocess.py:99} INFO - Output:
+[2025-04-29T15:05:47.916+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-29T15:05:47.967+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-29T15:05:47.967+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retrain_on_drift, task_id=merge_datasets, run_id=scheduled__2025-04-28T00:00:00+00:00, execution_date=20250428T000000, start_date=20250429T150538, end_date=20250429T150547
+[2025-04-29T15:05:47.976+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-29T15:05:47.976+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-29T15:05:47.976+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift queued_at:2025-04-29 15:05:20.322295+00:00
+[2025-04-29T15:05:47.977+0000] {logging_mixin.py:190} INFO - Task hostname:c3379456a121 operator:BashOperator
+[2025-04-29T15:05:48.028+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-29T15:05:48.065+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-29T15:05:48.066+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

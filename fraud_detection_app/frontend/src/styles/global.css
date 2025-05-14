@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extra global tweaks */
+body {
+  @apply bg-brand-gray-50 text-brand-gray-800;
+}
+
+.ui-card {
+  @apply bg-white rounded-card shadow-card p-4 transition-shadow hover:shadow-lg;
+}

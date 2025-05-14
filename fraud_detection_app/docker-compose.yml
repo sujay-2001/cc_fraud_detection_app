@@ -1,0 +1,104 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: fraud-backend
+    environment:
+      - DATABASE_URL=postgresql+psycopg://fraudapp:${POSTGRES_PASSWORD}@auth-db:5432/fraudapp
+      - MODEL_ENDPOINT=http://fraud-inference:8080/invocations
+      - FRAUD_THRESHOLD=0.5
+      - GEMINI_API_KEY=AIzaSyCb6TT34n-zk3n_EIymceLBIJ85am48UlU
+      - GEMINI_MODEL=gemini-2.0-flash
+      - REDIS_URL=redis://redis:6379/0
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_PORT=465
+      - SMTP_USER=sujaysundar29@gmail.com
+      - SMTP_PASS=ybsi msnl cuvn ytfs
+      - SMTP_FROM=sujaysundar29@gmail.com
+      - OTP_TTL_SECONDS=300          # 5 min
+      - OTP_VERIFY_WINDOW=900        # 15 min after success
+      - OTP_MAX_PER_HOUR=5           # rate-limit
+
+    depends_on:
+      - postgres
+      - fraud-inference
+      - redis
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: fraud-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3002:80"
+  redis:
+    image: redis:7-alpine     # tiny, no persistence needed for OTPs
+    command: ["redis-server", "--save", ""]   # disable RDB snapshots
+    ports: ["6379:6379"]
+
+  postgres:
+    image: postgres:16
+    container_name: auth-db
+    environment:
+      - POSTGRES_USER=fraudapp
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=fraudapp
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  fraud-inference:
+    image: sujays2001/fraud-detection-model:prod-v1
+    container_name: fraud-inference
+    # MLServer already defaults to 8080; keep it explicit
+    environment:
+      - MLSERVER_HTTP_PORT=8080
+      - MLSERVER_LOG_LEVEL=DEBUG 
+    ports:
+      - "5001:8080"           
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 10s
+      retries: 5
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  node_exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    ports:
+      - "9100:9100"
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+    ports:
+      - "3001:3000"
+    environment:
+      # allow iframes from anywhere
+      GF_SECURITY_ALLOW_EMBEDDING: "true"
+
+      # (optional) let anonymous users view dashboards
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: "Viewer"
+
+      # make sure URLs inside Grafana know they’re served on port 3001
+      GF_SERVER_ROOT_URL: "%(protocol)s://%(domain)s:%(http_port)s/"
+      GF_SERVER_HTTP_PORT: "3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  grafana_data:

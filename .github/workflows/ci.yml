@@ -1,0 +1,30 @@
+name: DVC-MLflow-CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dev-pipeline:
+    runs-on: ubuntu-latest
+    services:
+      mlflow:
+        image: ghcr.io/mlflow/mlflow:v2.10.2
+        ports: [5000:5000]
+      postgres:
+        image: postgres:16
+        env: { POSTGRES_PASSWORD: pw }
+        ports: [5432:5432]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: iterative/setup-dvc@v1
+      - uses: expandingman/setup-conda@v2   # optional, if you want conda env
+      - run: dvc pull                        # get data
+      - run: dvc repro                       # run ingest→train pipeline
+      - run: docker build -t fraud-model -f mlflow/Dockerfile mlflow/
+      - run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - run: docker tag fraud-model ghcr.io/${{ github.repository_owner }}/fraud-model:${{ github.sha }}
+      - run: docker push ghcr.io/${{ github.repository_owner }}/fraud-model:${{ github.sha }}
+      - run: docker tag fraud-model ghcr.io/${{ github.repository_owner }}/fraud-model:latest
+      - run: docker push ghcr.io/${{ github.repository_owner }}/fraud-model:latest

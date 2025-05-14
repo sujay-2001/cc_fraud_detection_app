@@ -1,0 +1,18 @@
+stages:
+  detect_and_merge:
+    cmd: python airflow/scripts/detect_and_merge.py data/seen.txt data/raw
+    deps:
+      - data/seen.txt 
+      - data/raw
+    outs:
+      - data/merged/current.csv
+  featurize:
+    cmd: python airflow/scripts/featurize.py data/merged/current.csv data/processed/train.parquet
+    deps:
+      - data/merged/current.csv
+    outs:
+      - data/processed/train.parquet
+  train:
+    cmd: python mlflow/train.py data/processed/train.parquet v2
+    deps:
+      - data/processed/train.parquet

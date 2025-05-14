@@ -1,0 +1,624 @@
+[2025-04-29T15:02:52.333+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:02:52.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:02:52.341+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:02:52.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:02:55.827+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:02:55.853+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:02:55.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:02:55.874+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:02:55.874+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:02:55.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 3.569 seconds
+[2025-04-29T15:03:26.355+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:26.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:03:26.357+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:26.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:27.675+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:27.688+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:27.688+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:03:27.703+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:27.703+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:03:27.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.367 seconds
+[2025-04-29T15:03:57.784+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:57.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:03:57.786+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:57.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:59.230+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:03:59.241+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:59.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:03:59.252+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:03:59.252+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:03:59.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.482 seconds
+[2025-04-29T15:04:30.079+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:04:30.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:04:30.091+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:04:30.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:04:32.383+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:04:32.423+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:04:32.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:04:32.446+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:04:32.446+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:04:32.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.394 seconds
+[2025-04-29T15:05:02.641+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:02.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:05:02.643+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:02.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:03.953+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:04.007+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:04.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:05:04.012+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:04.012+0000] {dag.py:3262} INFO - Creating ORM DAG for retrain_on_drift
+[2025-04-29T15:05:04.016+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:04.016+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-29T15:05:04.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.402 seconds
+[2025-04-29T15:05:35.042+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:35.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:05:35.049+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:35.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:37.340+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:05:37.388+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:37.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:05:37.412+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:05:37.412+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:05:37.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.393 seconds
+[2025-04-29T15:06:08.144+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:08.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:06:08.148+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:08.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:10.395+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:10.419+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:10.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:06:10.444+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:10.444+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:06:10.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.327 seconds
+[2025-04-29T15:06:40.989+0000] {processor.py:186} INFO - Started process (PID=628) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:40.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:06:40.996+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:40.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:42.723+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:06:42.742+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:42.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:06:42.758+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:06:42.758+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:06:42.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.786 seconds
+[2025-04-29T15:07:13.526+0000] {processor.py:186} INFO - Started process (PID=701) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:13.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:07:13.530+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:13.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:14.644+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:14.654+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:14.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:07:14.664+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:14.664+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:07:14.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.152 seconds
+[2025-04-29T15:07:44.962+0000] {processor.py:186} INFO - Started process (PID=774) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:44.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T15:07:44.967+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:44.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:46.191+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T15:07:46.204+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:46.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T15:07:46.214+0000] {logging_mixin.py:190} INFO - [2025-04-29T15:07:46.214+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T15:07:46.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.269 seconds
+[2025-04-29T16:55:14.132+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:14.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T16:55:14.154+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:14.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:18.423+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:18.464+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:18.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T16:55:18.488+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:18.488+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T16:55:18.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 4.417 seconds
+[2025-04-29T16:55:48.858+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:48.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T16:55:48.861+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:48.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:50.541+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T16:55:50.558+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:50.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T16:55:50.571+0000] {logging_mixin.py:190} INFO - [2025-04-29T16:55:50.570+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T16:55:50.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.727 seconds
+[2025-04-29T17:08:17.330+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:17.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:08:17.341+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:17.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:20.102+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:20.130+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:20.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:08:20.151+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:20.151+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:08:20.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.846 seconds
+[2025-04-29T17:08:50.913+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:50.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:08:50.921+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:50.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:52.459+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:08:52.479+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:52.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:08:52.496+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:08:52.496+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:08:52.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.608 seconds
+[2025-04-29T17:09:23.197+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:23.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:09:23.201+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:23.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:25.309+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:25.328+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:25.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:09:25.350+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:25.350+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:09:25.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.180 seconds
+[2025-04-29T17:09:56.274+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:56.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:09:56.286+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:56.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:58.827+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:09:58.867+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:58.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:09:58.881+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:09:58.881+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:09:58.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.634 seconds
+[2025-04-29T17:10:29.519+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:10:29.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:10:29.526+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:10:29.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:10:32.883+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:10:32.913+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:10:32.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:10:32.931+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:10:32.931+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:10:32.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 3.434 seconds
+[2025-04-29T17:11:03.105+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:03.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:11:03.108+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:03.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:04.797+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:04.815+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:04.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:11:04.830+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:04.830+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:11:04.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.743 seconds
+[2025-04-29T17:11:35.667+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:35.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:11:35.669+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:35.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:36.878+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:11:36.898+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:36.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:11:36.909+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:11:36.909+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:11:36.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.256 seconds
+[2025-04-29T17:12:07.281+0000] {processor.py:186} INFO - Started process (PID=624) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:07.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:12:07.286+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:07.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:08.408+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:08.418+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:08.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:12:08.427+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:08.427+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:12:08.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.163 seconds
+[2025-04-29T17:12:38.869+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:38.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:12:38.872+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:38.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:40.112+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:12:40.127+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:40.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:12:40.142+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:12:40.142+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:12:40.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.290 seconds
+[2025-04-29T17:13:10.511+0000] {processor.py:186} INFO - Started process (PID=770) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:10.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:13:10.513+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:10.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:11.894+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:11.918+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:11.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:13:11.930+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:11.929+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:13:11.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.433 seconds
+[2025-04-29T17:13:42.597+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:42.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:13:42.607+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:42.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:44.159+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:13:44.183+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:44.183+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:13:44.196+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:13:44.196+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:13:44.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.630 seconds
+[2025-04-29T17:14:15.279+0000] {processor.py:186} INFO - Started process (PID=916) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:15.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:14:15.286+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:15.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:16.622+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:16.634+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:16.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:14:16.648+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:16.648+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:14:16.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.389 seconds
+[2025-04-29T17:14:47.543+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:47.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:14:47.550+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:47.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:48.971+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:14:48.990+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:48.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:14:49.004+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:14:49.004+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:14:49.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.479 seconds
+[2025-04-29T17:15:19.251+0000] {processor.py:186} INFO - Started process (PID=1068) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:19.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:15:19.257+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:19.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:20.655+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:20.679+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:20.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:15:20.703+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:20.703+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:15:20.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.485 seconds
+[2025-04-29T17:15:51.696+0000] {processor.py:186} INFO - Started process (PID=1141) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:51.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:15:51.701+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:51.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:53.193+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:15:53.216+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:53.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:15:53.229+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:15:53.229+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:15:53.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.550 seconds
+[2025-04-29T17:17:21.538+0000] {processor.py:186} INFO - Started process (PID=1153) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:21.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:17:21.564+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:21.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:23.463+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:23.489+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:23.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:17:23.502+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:23.502+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:17:23.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.984 seconds
+[2025-04-29T17:17:54.336+0000] {processor.py:186} INFO - Started process (PID=1241) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:54.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:17:54.339+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:54.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:56.392+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:17:56.412+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:56.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:17:56.427+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:17:56.427+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:17:56.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.118 seconds
+[2025-04-29T17:18:26.591+0000] {processor.py:186} INFO - Started process (PID=1327) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:26.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:18:26.594+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:26.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:28.065+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:28.089+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:28.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:18:28.102+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:28.102+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:18:28.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.709 seconds
+[2025-04-29T17:18:58.483+0000] {processor.py:186} INFO - Started process (PID=1412) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:58.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:18:58.488+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:58.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:59.777+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:18:59.785+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:59.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:18:59.793+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:18:59.793+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:18:59.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.414 seconds
+[2025-04-29T17:19:29.938+0000] {processor.py:186} INFO - Started process (PID=1497) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:19:29.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:19:29.942+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:19:29.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:19:32.454+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:19:32.485+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:19:32.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:19:32.791+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:19:32.791+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:19:32.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.876 seconds
+[2025-04-29T17:21:34.766+0000] {processor.py:186} INFO - Started process (PID=1518) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:21:34.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:21:34.774+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:21:34.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:21:36.965+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:21:36.981+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:21:36.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:21:36.993+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:21:36.993+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:21:37.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.250 seconds
+[2025-04-29T17:22:07.056+0000] {processor.py:186} INFO - Started process (PID=1596) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:07.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:22:07.058+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:07.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:08.431+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:08.441+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:08.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:22:08.460+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:08.460+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:22:08.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.420 seconds
+[2025-04-29T17:22:39.106+0000] {processor.py:186} INFO - Started process (PID=1679) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:39.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:22:39.111+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:39.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:40.686+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:22:40.700+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:40.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:22:40.711+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:22:40.711+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:22:40.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.627 seconds
+[2025-04-29T17:23:10.762+0000] {processor.py:186} INFO - Started process (PID=1772) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:10.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:23:10.763+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:10.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:12.327+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:12.338+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:12.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:23:12.349+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:12.349+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:23:12.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.597 seconds
+[2025-04-29T17:23:42.621+0000] {processor.py:186} INFO - Started process (PID=1845) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:42.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:23:42.630+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:42.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:44.342+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:23:44.356+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:44.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:23:44.366+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:23:44.366+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:23:44.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.763 seconds
+[2025-04-29T17:27:12.152+0000] {processor.py:186} INFO - Started process (PID=1883) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:12.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:27:12.169+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:12.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:14.573+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:14.600+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:14.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:27:14.871+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:14.871+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:27:14.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.742 seconds
+[2025-04-29T17:27:45.406+0000] {processor.py:186} INFO - Started process (PID=1971) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:45.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:27:45.408+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:45.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:47.108+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:27:47.158+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:47.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:27:47.435+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:27:47.435+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:27:47.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.054 seconds
+[2025-04-29T17:28:17.765+0000] {processor.py:186} INFO - Started process (PID=2053) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:17.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:28:17.769+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:17.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:19.424+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:19.440+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:19.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:28:19.753+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:19.753+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:28:19.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.013 seconds
+[2025-04-29T17:28:49.832+0000] {processor.py:186} INFO - Started process (PID=2135) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:49.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:28:49.834+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:49.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:50.998+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:28:51.157+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:51.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:28:51.167+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:28:51.167+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:28:51.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.348 seconds
+[2025-04-29T17:29:21.321+0000] {processor.py:186} INFO - Started process (PID=2208) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:21.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:29:21.323+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:21.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:22.761+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:22.780+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:22.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:29:22.792+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:22.791+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:29:22.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.485 seconds
+[2025-04-29T17:29:53.553+0000] {processor.py:186} INFO - Started process (PID=2297) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:53.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:29:53.557+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:53.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:54.982+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:29:54.999+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:54.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:29:55.008+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:29:55.008+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:29:55.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.467 seconds
+[2025-04-29T17:30:25.093+0000] {processor.py:186} INFO - Started process (PID=2374) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:25.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:30:25.095+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:25.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:26.441+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:26.456+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:26.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:30:26.465+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:26.465+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:30:26.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.382 seconds
+[2025-04-29T17:30:57.337+0000] {processor.py:186} INFO - Started process (PID=2452) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:57.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:30:57.341+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:57.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:58.759+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:30:58.778+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:58.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:30:58.794+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:30:58.794+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:30:58.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.470 seconds
+[2025-04-29T17:31:30.518+0000] {processor.py:186} INFO - Started process (PID=2515) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:31:30.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:31:30.531+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:31:30.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:31:36.189+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:31:36.258+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:31:36.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:31:36.362+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:31:36.362+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:31:36.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 5.959 seconds
+[2025-04-29T17:32:38.264+0000] {processor.py:186} INFO - Started process (PID=2538) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:32:38.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:32:38.275+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:32:38.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:32:41.459+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:32:41.495+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:32:41.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:32:41.524+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:32:41.523+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:32:41.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 3.303 seconds
+[2025-04-29T17:33:12.129+0000] {processor.py:186} INFO - Started process (PID=2624) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:12.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:33:12.133+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:12.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:14.834+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:14.859+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:14.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:33:14.887+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:14.886+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:33:14.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.792 seconds
+[2025-04-29T17:33:45.302+0000] {processor.py:186} INFO - Started process (PID=2704) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:45.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:33:45.305+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:45.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:47.157+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:33:47.175+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:47.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:33:47.191+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:33:47.191+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:33:47.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.905 seconds
+[2025-04-29T17:34:17.494+0000] {processor.py:186} INFO - Started process (PID=2783) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:17.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:34:17.498+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:17.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:20.278+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:20.380+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:20.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:34:20.452+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:20.451+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:34:20.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 3.035 seconds
+[2025-04-29T17:34:51.294+0000] {processor.py:186} INFO - Started process (PID=2874) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:51.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:34:51.298+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:51.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:53.920+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:34:53.936+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:53.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:34:53.956+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:34:53.955+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:34:53.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.694 seconds
+[2025-04-29T17:35:25.010+0000] {processor.py:186} INFO - Started process (PID=2958) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:25.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:35:25.013+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:25.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:26.744+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:26.767+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:26.767+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:35:26.779+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:26.779+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:35:26.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.780 seconds
+[2025-04-29T17:35:57.407+0000] {processor.py:186} INFO - Started process (PID=3034) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:57.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:35:57.410+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:57.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:59.485+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:35:59.506+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:59.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:35:59.522+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:35:59.522+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:35:59.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.129 seconds
+[2025-04-29T17:36:29.831+0000] {processor.py:186} INFO - Started process (PID=3107) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:36:29.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:36:29.856+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:36:29.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:36:33.755+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:36:33.812+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:36:33.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:36:33.841+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:36:33.841+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:36:33.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 4.052 seconds
+[2025-04-29T17:37:04.031+0000] {processor.py:186} INFO - Started process (PID=3185) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:04.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:37:04.044+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:04.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:08.542+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:08.624+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:08.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:37:08.649+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:08.649+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:37:08.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 4.670 seconds
+[2025-04-29T17:37:38.780+0000] {processor.py:186} INFO - Started process (PID=3258) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:38.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:37:38.788+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:38.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:41.056+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:37:41.089+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:41.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:37:41.111+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:37:41.111+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:37:41.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.354 seconds
+[2025-04-29T17:38:11.380+0000] {processor.py:186} INFO - Started process (PID=3331) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:11.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:38:11.389+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:11.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:12.719+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:12.733+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:12.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:38:12.743+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:12.743+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:38:12.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.390 seconds
+[2025-04-29T17:38:43.567+0000] {processor.py:186} INFO - Started process (PID=3404) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:43.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:38:43.571+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:43.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:45.019+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:38:45.034+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:45.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:38:45.044+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:38:45.044+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:38:45.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.494 seconds
+[2025-04-29T17:39:15.216+0000] {processor.py:186} INFO - Started process (PID=3477) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:39:15.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:39:15.223+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:39:15.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:39:16.954+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:39:16.963+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:39:16.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:39:16.973+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:39:16.973+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:39:16.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.784 seconds
+[2025-04-29T17:42:16.491+0000] {processor.py:186} INFO - Started process (PID=3548) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:16.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:42:16.504+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:16.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:20.998+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:21.076+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:21.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:42:21.147+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:21.146+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:42:21.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 4.716 seconds
+[2025-04-29T17:42:51.551+0000] {processor.py:186} INFO - Started process (PID=3636) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:51.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:42:51.554+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:51.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:53.279+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:42:53.307+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:53.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:42:53.329+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:42:53.328+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:42:53.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.797 seconds
+[2025-04-29T17:43:23.885+0000] {processor.py:186} INFO - Started process (PID=3713) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:23.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:43:23.888+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:23.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:25.783+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:25.818+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:25.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:43:25.834+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:25.834+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:43:25.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.966 seconds
+[2025-04-29T17:43:56.011+0000] {processor.py:186} INFO - Started process (PID=3793) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:56.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:43:56.014+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:56.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:58.025+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:43:58.037+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:58.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:43:58.049+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:43:58.049+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:43:58.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.054 seconds
+[2025-04-29T17:44:28.329+0000] {processor.py:186} INFO - Started process (PID=3876) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:44:28.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:44:28.333+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:44:28.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:44:30.174+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:44:30.200+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:44:30.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:44:30.212+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:44:30.212+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:44:30.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.904 seconds
+[2025-04-29T17:45:00.315+0000] {processor.py:186} INFO - Started process (PID=3961) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:00.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:45:00.319+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:00.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:01.925+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:01.936+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:01.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:45:01.946+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:01.946+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:45:01.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.647 seconds
+[2025-04-29T17:45:32.258+0000] {processor.py:186} INFO - Started process (PID=4042) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:32.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:45:32.260+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:32.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:34.758+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:45:34.843+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:34.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:45:34.881+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:45:34.881+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:45:34.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.653 seconds
+[2025-04-29T17:46:05.681+0000] {processor.py:186} INFO - Started process (PID=4117) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:05.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:46:05.686+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:05.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:08.931+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:08.948+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:08.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:46:08.972+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:08.972+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:46:08.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 3.319 seconds
+[2025-04-29T17:46:39.572+0000] {processor.py:186} INFO - Started process (PID=4190) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:39.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:46:39.580+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:39.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:42.307+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:46:42.336+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:42.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:46:42.368+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:46:42.368+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:46:42.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.824 seconds
+[2025-04-29T17:47:12.870+0000] {processor.py:186} INFO - Started process (PID=4269) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:12.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:47:12.881+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:12.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:15.415+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:15.517+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:15.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:47:15.592+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:15.591+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:47:15.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.744 seconds
+[2025-04-29T17:47:45.868+0000] {processor.py:186} INFO - Started process (PID=4342) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:45.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:47:45.873+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:45.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:47.529+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:47:47.543+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:47.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:47:47.553+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:47:47.553+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:47:47.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.702 seconds
+[2025-04-29T17:48:17.756+0000] {processor.py:186} INFO - Started process (PID=4415) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:17.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:48:17.763+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:17.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:19.614+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:19.632+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:19.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:48:19.649+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:19.648+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:48:19.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.915 seconds
+[2025-04-29T17:48:49.985+0000] {processor.py:186} INFO - Started process (PID=4488) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:49.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:48:49.990+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:49.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:51.775+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:48:51.787+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:51.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:48:51.796+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:48:51.796+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:48:51.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.826 seconds
+[2025-04-29T17:49:21.901+0000] {processor.py:186} INFO - Started process (PID=4561) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:21.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:49:21.910+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:21.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:23.734+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:23.751+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:23.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:49:23.763+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:23.763+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:49:23.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.877 seconds
+[2025-04-29T17:49:54.025+0000] {processor.py:186} INFO - Started process (PID=4635) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:54.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:49:54.033+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:54.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:56.251+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:49:56.276+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:56.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:49:56.291+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:49:56.290+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:49:56.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.293 seconds
+[2025-04-29T17:50:26.407+0000] {processor.py:186} INFO - Started process (PID=4708) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:50:26.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:50:26.413+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:50:26.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:50:28.149+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:50:28.162+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:50:28.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:50:28.188+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:50:28.187+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:50:28.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.814 seconds
+[2025-04-29T17:50:58.884+0000] {processor.py:186} INFO - Started process (PID=4789) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:50:58.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:50:58.889+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:50:58.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:51:01.224+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:51:01.240+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:51:01.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:51:01.264+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:51:01.264+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:51:01.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.394 seconds
+[2025-04-29T17:51:31.475+0000] {processor.py:186} INFO - Started process (PID=4864) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:51:31.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:51:31.483+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:51:31.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:51:33.548+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:51:33.574+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:51:33.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:51:33.591+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:51:33.591+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:51:33.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.134 seconds
+[2025-04-29T17:52:04.621+0000] {processor.py:186} INFO - Started process (PID=4945) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:04.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:52:04.628+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:04.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:07.170+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:07.209+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:07.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:52:07.225+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:07.225+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:52:07.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.631 seconds
+[2025-04-29T17:52:37.566+0000] {processor.py:186} INFO - Started process (PID=5025) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:37.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:52:37.570+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:37.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:39.977+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:52:40.002+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:40.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:52:40.015+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:52:40.015+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:52:40.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.466 seconds
+[2025-04-29T17:53:10.417+0000] {processor.py:186} INFO - Started process (PID=5105) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:10.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:53:10.420+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:10.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:11.901+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:11.914+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:11.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:53:11.923+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:11.923+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:53:11.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.519 seconds
+[2025-04-29T17:53:41.983+0000] {processor.py:186} INFO - Started process (PID=5178) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:41.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:53:41.985+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:41.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:43.725+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:53:43.742+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:43.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:53:43.755+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:53:43.755+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:53:43.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.788 seconds
+[2025-04-29T17:54:13.951+0000] {processor.py:186} INFO - Started process (PID=5257) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:13.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:54:13.957+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:13.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:15.522+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:15.535+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:15.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:54:15.545+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:15.545+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:54:15.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.614 seconds
+[2025-04-29T17:54:45.905+0000] {processor.py:186} INFO - Started process (PID=5330) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:45.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:54:45.908+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:45.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:47.946+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:54:47.962+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:47.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:54:47.973+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:54:47.972+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:54:47.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.085 seconds
+[2025-04-29T17:55:18.384+0000] {processor.py:186} INFO - Started process (PID=5403) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:18.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:55:18.391+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:18.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:19.960+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:20.004+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:20.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:55:20.033+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:20.033+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:55:20.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.671 seconds
+[2025-04-29T17:55:50.229+0000] {processor.py:186} INFO - Started process (PID=5476) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:50.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:55:50.234+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:50.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:52.471+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:55:52.536+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:52.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:55:52.574+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:55:52.574+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:55:52.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.370 seconds
+[2025-04-29T17:56:22.690+0000] {processor.py:186} INFO - Started process (PID=5550) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:56:22.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:56:22.692+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:56:22.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:56:24.001+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:56:24.011+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:56:24.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:56:24.024+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:56:24.024+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:56:24.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 1.346 seconds
+[2025-04-29T17:56:54.251+0000] {processor.py:186} INFO - Started process (PID=5623) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:56:54.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:56:54.283+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:56:54.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:57:01.510+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:57:01.587+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:57:01.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:57:01.621+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:57:01.621+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:57:01.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 7.464 seconds
+[2025-04-29T17:57:32.697+0000] {processor.py:186} INFO - Started process (PID=5712) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:57:32.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:57:32.710+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:57:32.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:57:37.562+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:57:37.618+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:57:37.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:57:37.701+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:57:37.701+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:57:37.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 5.052 seconds
+[2025-04-29T17:58:08.704+0000] {processor.py:186} INFO - Started process (PID=5795) to work on /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:58:08.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/drift_retrain_dag.py for tasks to queue
+[2025-04-29T17:58:08.710+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:58:08.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:58:10.886+0000] {processor.py:925} INFO - DAG(s) 'retrain_on_drift' retrieved from /opt/airflow/dags/drift_retrain_dag.py
+[2025-04-29T17:58:10.900+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:58:10.900+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:58:10.912+0000] {logging_mixin.py:190} INFO - [2025-04-29T17:58:10.912+0000] {dag.py:4180} INFO - Setting next_dagrun for retrain_on_drift to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:58:10.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/drift_retrain_dag.py took 2.226 seconds

@@ -1,0 +1,30 @@
+[2025-04-30T18:16:44.983+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-30T18:16:44.989+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retrain_on_drift.branch_drift scheduled__2025-04-29T00:00:00+00:00 [queued]>
+[2025-04-30T18:16:44.992+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retrain_on_drift.branch_drift scheduled__2025-04-29T00:00:00+00:00 [queued]>
+[2025-04-30T18:16:44.992+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-04-30T18:16:44.996+0000] {taskinstance.py:2889} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch_drift> on 2025-04-29 00:00:00+00:00
+[2025-04-30T18:16:45.008+0000] {standard_task_runner.py:72} INFO - Started process 88 to run task
+[2025-04-30T18:16:45.011+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retrain_on_drift', 'branch_drift', 'scheduled__2025-04-29T00:00:00+00:00', '--job-id', '228', '--raw', '--subdir', 'DAGS_FOLDER/drift_retrain_dag.py', '--cfg-path', '/tmp/tmppnp3dx98']
+[2025-04-30T18:16:45.012+0000] {standard_task_runner.py:105} INFO - Job 228: Subtask branch_drift
+[2025-04-30T18:16:45.032+0000] {task_command.py:467} INFO - Running <TaskInstance: retrain_on_drift.branch_drift scheduled__2025-04-29T00:00:00+00:00 [running]> on host 9ba56f2b6828
+[2025-04-30T18:16:45.073+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retrain_on_drift' AIRFLOW_CTX_TASK_ID='branch_drift' AIRFLOW_CTX_EXECUTION_DATE='2025-04-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-29T00:00:00+00:00'
+[2025-04-30T18:16:45.074+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-30T18:16:45.074+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-30T18:16:45.074+0000] {logging_mixin.py:190} INFO - Current task name:branch_drift state:running start_date:2025-04-30 18:16:44.989570+00:00
+[2025-04-30T18:16:45.074+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift and current dag run status:running
+[2025-04-30T18:16:45.074+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-30T18:16:45.075+0000] {drift_retrain_dag.py:64} INFO - Starting drift check for version: v1
+[2025-04-30T18:16:45.075+0000] {drift_retrain_dag.py:68} INFO - No new version detected; skipping drift check
+[2025-04-30T18:16:45.075+0000] {python.py:240} INFO - Done. Returned value was: no_drift
+[2025-04-30T18:16:45.075+0000] {branch.py:38} INFO - Branch into no_drift
+[2025-04-30T18:16:45.075+0000] {skipmixin.py:230} INFO - Following branch ('no_drift',)
+[2025-04-30T18:16:45.079+0000] {skipmixin.py:278} INFO - Skipping tasks [('merge_datasets', -1)]
+[2025-04-30T18:16:45.091+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-30T18:16:45.091+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retrain_on_drift, task_id=branch_drift, run_id=scheduled__2025-04-29T00:00:00+00:00, execution_date=20250429T000000, start_date=20250430T181644, end_date=20250430T181645
+[2025-04-30T18:16:45.094+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-30T18:16:45.094+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-30T18:16:45.094+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift queued_at:2025-04-30 18:16:33.552634+00:00
+[2025-04-30T18:16:45.094+0000] {logging_mixin.py:190} INFO - Task hostname:9ba56f2b6828 operator:_BranchPythonDecoratedOperator
+[2025-04-30T18:16:45.108+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-30T18:16:45.119+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-30T18:16:45.121+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

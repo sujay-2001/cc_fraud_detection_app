@@ -1,0 +1,29 @@
+[2025-04-29T15:05:51.075+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-29T15:05:51.083+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retrain_on_drift.featurize scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:51.086+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retrain_on_drift.featurize scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:51.087+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-04-29T15:05:51.092+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): featurize> on 2025-04-28 00:00:00+00:00
+[2025-04-29T15:05:51.110+0000] {standard_task_runner.py:72} INFO - Started process 187 to run task
+[2025-04-29T15:05:51.113+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retrain_on_drift', 'featurize', 'scheduled__2025-04-28T00:00:00+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/drift_retrain_dag.py', '--cfg-path', '/tmp/tmp5z415d25']
+[2025-04-29T15:05:51.115+0000] {standard_task_runner.py:105} INFO - Job 214: Subtask featurize
+[2025-04-29T15:05:51.146+0000] {task_command.py:467} INFO - Running <TaskInstance: retrain_on_drift.featurize scheduled__2025-04-28T00:00:00+00:00 [running]> on host c3379456a121
+[2025-04-29T15:05:51.182+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retrain_on_drift' AIRFLOW_CTX_TASK_ID='featurize' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-28T00:00:00+00:00'
+[2025-04-29T15:05:51.183+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-29T15:05:51.183+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-29T15:05:51.184+0000] {logging_mixin.py:190} INFO - Current task name:featurize state:running start_date:2025-04-29 15:05:51.083966+00:00
+[2025-04-29T15:05:51.184+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift and current dag run status:running
+[2025-04-29T15:05:51.184+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-29T15:05:51.184+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-29T15:05:51.186+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/scripts/featurize.py /opt/***/data/merged/current.csv /opt/***/data/processed/train.parquet']
+[2025-04-29T15:05:51.197+0000] {subprocess.py:99} INFO - Output:
+[2025-04-29T15:05:54.563+0000] {subprocess.py:106} INFO - Featurization complete: 518,670 rows, 45 columns – saved → /opt/***/data/processed/train.parquet
+[2025-04-29T15:05:54.629+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-29T15:05:54.719+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-29T15:05:54.721+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retrain_on_drift, task_id=featurize, run_id=scheduled__2025-04-28T00:00:00+00:00, execution_date=20250428T000000, start_date=20250429T150551, end_date=20250429T150554
+[2025-04-29T15:05:54.753+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-29T15:05:54.755+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-29T15:05:54.755+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift queued_at:2025-04-29 15:05:20.322295+00:00
+[2025-04-29T15:05:54.755+0000] {logging_mixin.py:190} INFO - Task hostname:c3379456a121 operator:BashOperator
+[2025-04-29T15:05:54.805+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-29T15:05:54.843+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-29T15:05:54.844+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

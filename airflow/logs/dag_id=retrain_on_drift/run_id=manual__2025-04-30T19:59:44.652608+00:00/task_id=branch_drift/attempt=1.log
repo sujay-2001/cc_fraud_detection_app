@@ -1,0 +1,63 @@
+[2025-04-30T19:59:54.384+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-30T19:59:54.420+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retrain_on_drift.branch_drift manual__2025-04-30T19:59:44.652608+00:00 [queued]>
+[2025-04-30T19:59:54.426+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retrain_on_drift.branch_drift manual__2025-04-30T19:59:44.652608+00:00 [queued]>
+[2025-04-30T19:59:54.428+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-04-30T19:59:54.447+0000] {taskinstance.py:2889} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch_drift> on 2025-04-30 19:59:44.652608+00:00
+[2025-04-30T19:59:54.469+0000] {standard_task_runner.py:72} INFO - Started process 670 to run task
+[2025-04-30T19:59:54.483+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retrain_on_drift', 'branch_drift', 'manual__2025-04-30T19:59:44.652608+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/drift_retrain_dag.py', '--cfg-path', '/tmp/tmp44k21t9k']
+[2025-04-30T19:59:54.494+0000] {standard_task_runner.py:105} INFO - Job 242: Subtask branch_drift
+[2025-04-30T19:59:54.560+0000] {task_command.py:467} INFO - Running <TaskInstance: retrain_on_drift.branch_drift manual__2025-04-30T19:59:44.652608+00:00 [running]> on host 3ca66a66642a
+[2025-04-30T19:59:54.634+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retrain_on_drift' AIRFLOW_CTX_TASK_ID='branch_drift' AIRFLOW_CTX_EXECUTION_DATE='2025-04-30T19:59:44.652608+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-30T19:59:44.652608+00:00'
+[2025-04-30T19:59:54.636+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-30T19:59:54.637+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-30T19:59:54.637+0000] {logging_mixin.py:190} INFO - Current task name:branch_drift state:running start_date:2025-04-30 19:59:54.421188+00:00
+[2025-04-30T19:59:54.637+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift and current dag run status:running
+[2025-04-30T19:59:54.638+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-30T19:59:54.638+0000] {drift_retrain_dag.py:69} INFO - Starting drift check for version: v2
+[2025-04-30T19:59:54.639+0000] {drift_retrain_dag.py:76} INFO - Baseline file: /opt/***/data/raw/v1/baseline.csv
+[2025-04-30T19:59:54.639+0000] {drift_retrain_dag.py:77} INFO - New file:      /opt/***/data/raw/v2/latest.csv
+[2025-04-30T19:59:56.120+0000] {drift_retrain_dag.py:82} INFO - Loaded baseline.csv: (259335, 23) in 1.48s
+[2025-04-30T19:59:58.011+0000] {drift_retrain_dag.py:85} INFO - Loaded latest.csv:   (259335, 23) in 1.88s
+[2025-04-30T19:59:58.060+0000] {drift_retrain_dag.py:91} INFO - Running DataDriftTable report…
+[2025-04-30T19:59:58.166+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.228+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.287+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.305+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.330+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.355+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.398+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:58.489+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:59.022+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+  terms = (f_obs - f_exp)**2 / f_exp
+
+[2025-04-30T19:59:59.388+0000] {drift_retrain_dag.py:95} INFO - DataDriftTable computation took 1.33s
+[2025-04-30T19:59:59.397+0000] {drift_retrain_dag.py:100} INFO - Drift detected; branching to merge_datasets
+[2025-04-30T19:59:59.414+0000] {python.py:240} INFO - Done. Returned value was: merge_datasets
+[2025-04-30T19:59:59.414+0000] {branch.py:38} INFO - Branch into merge_datasets
+[2025-04-30T19:59:59.415+0000] {skipmixin.py:230} INFO - Following branch ('merge_datasets',)
+[2025-04-30T19:59:59.431+0000] {skipmixin.py:278} INFO - Skipping tasks [('no_drift', -1)]
+[2025-04-30T19:59:59.458+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-30T19:59:59.459+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retrain_on_drift, task_id=branch_drift, run_id=manual__2025-04-30T19:59:44.652608+00:00, execution_date=20250430T195944, start_date=20250430T195954, end_date=20250430T195959
+[2025-04-30T19:59:59.464+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-30T19:59:59.464+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-30T19:59:59.465+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift queued_at:2025-04-30 19:59:44.677474+00:00
+[2025-04-30T19:59:59.465+0000] {logging_mixin.py:190} INFO - Task hostname:3ca66a66642a operator:_BranchPythonDecoratedOperator
+[2025-04-30T19:59:59.532+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-30T19:59:59.572+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-30T19:59:59.576+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

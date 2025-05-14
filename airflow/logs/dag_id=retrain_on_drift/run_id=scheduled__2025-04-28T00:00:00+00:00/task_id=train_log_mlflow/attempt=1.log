@@ -1,0 +1,85 @@
+[2025-04-29T15:05:57.055+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-29T15:05:57.063+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retrain_on_drift.train_log_mlflow scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:57.066+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retrain_on_drift.train_log_mlflow scheduled__2025-04-28T00:00:00+00:00 [queued]>
+[2025-04-29T15:05:57.067+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-04-29T15:05:57.072+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): train_log_mlflow> on 2025-04-28 00:00:00+00:00
+[2025-04-29T15:05:57.083+0000] {standard_task_runner.py:72} INFO - Started process 218 to run task
+[2025-04-29T15:05:57.090+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retrain_on_drift', 'train_log_mlflow', 'scheduled__2025-04-28T00:00:00+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/drift_retrain_dag.py', '--cfg-path', '/tmp/tmpsvz324d8']
+[2025-04-29T15:05:57.091+0000] {standard_task_runner.py:105} INFO - Job 215: Subtask train_log_mlflow
+[2025-04-29T15:05:57.122+0000] {task_command.py:467} INFO - Running <TaskInstance: retrain_on_drift.train_log_mlflow scheduled__2025-04-28T00:00:00+00:00 [running]> on host c3379456a121
+[2025-04-29T15:05:57.162+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retrain_on_drift' AIRFLOW_CTX_TASK_ID='train_log_mlflow' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-28T00:00:00+00:00'
+[2025-04-29T15:05:57.163+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-29T15:05:57.163+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-29T15:05:57.164+0000] {logging_mixin.py:190} INFO - Current task name:train_log_mlflow state:running start_date:2025-04-29 15:05:57.064018+00:00
+[2025-04-29T15:05:57.164+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift and current dag run status:running
+[2025-04-29T15:05:57.164+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-29T15:05:57.165+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-29T15:05:57.166+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/mlflow/train.py /opt/***/data/processed/train.parquet v2']
+[2025-04-29T15:05:57.176+0000] {subprocess.py:99} INFO - Output:
+[2025-04-29T15:06:00.103+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:00 INFO mlflow.tracking.fluent: Experiment with name 'Fraud detection model training' does not exist. Creating a new experiment.
+[2025-04-29T15:06:00.698+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:00 WARNING mlflow.utils.autologging_utils: You are using an unsupported version of lightgbm. If you encounter errors during autologging, try upgrading / downgrading lightgbm to a supported version, or try upgrading MLflow.
+[2025-04-29T15:06:02.420+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:02 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/data/digest_utils.py:29: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead."
+[2025-04-29T15:06:06.482+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:06 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:393: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+[2025-04-29T15:06:06.487+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:06 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/data/digest_utils.py:29: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead."
+[2025-04-29T15:06:07.332+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:07 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:393: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+[2025-04-29T15:06:12.611+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:12 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/data/digest_utils.py:29: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead."
+[2025-04-29T15:06:13.297+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:13 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:393: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+[2025-04-29T15:06:15.047+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.054+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.075+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.076+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.118+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.119+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.128+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.128+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.143+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.143+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.164+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.164+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.185+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.185+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.235+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.235+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.506+0000] {subprocess.py:106} INFO - /home/***/.local/lib/python3.11/site-packages/scipy/stats/_stats_py.py:7335: RuntimeWarning: divide by zero encountered in divide
+[2025-04-29T15:06:15.507+0000] {subprocess.py:106} INFO -   terms = (f_obs - f_exp)**2 / f_exp
+[2025-04-29T15:06:15.908+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:15 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/data/digest_utils.py:29: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead."
+[2025-04-29T15:06:16.568+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:16 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:393: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+[2025-04-29T15:06:17.911+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:17 WARNING mlflow.utils.requirements_utils: Detected one or more mismatches between the model's dependencies and the current Python environment:
+[2025-04-29T15:06:17.914+0000] {subprocess.py:106} INFO -  - scikit-learn (current: 1.6.1, required: scikit-learn==1.4.1.post1)
+[2025-04-29T15:06:17.914+0000] {subprocess.py:106} INFO -  - lightgbm (current: 4.6.0, required: lightgbm==4.3.0)
+[2025-04-29T15:06:17.914+0000] {subprocess.py:106} INFO - To fix the mismatches, call `mlflow.pyfunc.get_model_dependencies(model_uri)` to fetch the model's environment and install dependencies using the resulting environment file.
+[2025-04-29T15:06:18.033+0000] {subprocess.py:106} INFO - Successfully registered model 'fraud_model'.
+[2025-04-29T15:06:18.053+0000] {subprocess.py:106} INFO - 2025/04/29 15:06:18 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: fraud_model, version 1
+[2025-04-29T15:06:18.054+0000] {subprocess.py:106} INFO - Created version '1' of model 'fraud_model'.
+[2025-04-29T15:06:18.055+0000] {subprocess.py:106} INFO - /opt/mlflow/train.py:129: FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.10.2/model-registry.html#migrating-from-stages
+[2025-04-29T15:06:18.056+0000] {subprocess.py:106} INFO -   latest = client.get_latest_versions("fraud_model", stages=["None"])[0]
+[2025-04-29T15:06:18.060+0000] {subprocess.py:106} INFO - /opt/mlflow/train.py:130: FutureWarning: ``mlflow.tracking.client.MlflowClient.transition_model_version_stage`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.10.2/model-registry.html#migrating-from-stages
+[2025-04-29T15:06:18.061+0000] {subprocess.py:106} INFO -   client.transition_model_version_stage(
+[2025-04-29T15:06:18.131+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+[2025-04-29T15:06:18.133+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+[2025-04-29T15:06:18.135+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+[2025-04-29T15:06:18.137+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+[2025-04-29T15:06:18.138+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [50]	valid_0's auc: 0.994214	valid_0's binary_logloss: 0.0525906
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [100]	valid_0's auc: 0.99451	valid_0's binary_logloss: 0.0359186
+[2025-04-29T15:06:18.139+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+[2025-04-29T15:06:18.140+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+[2025-04-29T15:06:18.142+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+[2025-04-29T15:06:18.142+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+[2025-04-29T15:06:18.143+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+[2025-04-29T15:06:18.143+0000] {subprocess.py:106} INFO - [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+[2025-04-29T15:06:18.143+0000] {subprocess.py:106} INFO - 🚀 Promoted fraud_model v1 to Production
+[2025-04-29T15:06:18.768+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-29T15:06:18.825+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-29T15:06:18.827+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retrain_on_drift, task_id=train_log_mlflow, run_id=scheduled__2025-04-28T00:00:00+00:00, execution_date=20250428T000000, start_date=20250429T150557, end_date=20250429T150618
+[2025-04-29T15:06:18.835+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-29T15:06:18.835+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-29T15:06:18.835+0000] {logging_mixin.py:190} INFO - Dag name:retrain_on_drift queued_at:2025-04-29 15:05:20.322295+00:00
+[2025-04-29T15:06:18.835+0000] {logging_mixin.py:190} INFO - Task hostname:c3379456a121 operator:BashOperator
+[2025-04-29T15:06:18.855+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-29T15:06:18.886+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-29T15:06:18.887+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
